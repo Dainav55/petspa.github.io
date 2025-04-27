@@ -1,0 +1,118 @@
+section.about-banner {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-image: url('pics/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+  }
+  section.about-banner h2 {
+    font-family: "Kavoon", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 15%;
+  }
+  section.background,
+  section.team {
+    padding: 40px;
+  }
+  section.background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  section.background img {
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+    margin-right: 30px;
+  }
+  section.background h3 {
+    font-family: "Delius", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 32px;
+    color: #4d2c2c;
+    margin-bottom: 15px;
+  }
+  section.background p {
+    font-size: 16px;
+    color: #6a4e42;
+    line-height: 1.8;
+  }
+  section.team h3, section.certificate h3 {
+    text-align: center;
+    font-family: "Delius", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 32px;
+    color: #4d2c2c;
+    margin-bottom: 40px;
+  }
+  section.team {
+    text-align: center;
+    background-color: #ffe5d9;
+  }
+  .team-member {
+    display: inline-block;
+    margin: 0 50px;
+    width: 300px;
+  }
+  .team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  .team-member p {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #6a4e42;
+    line-height: 1.8;
+    margin-bottom: 30px;
+  }
+  section.certificate img {
+    width: 900px;
+    margin-left: 23%;
+  }
+  @media (max-width: 700px) {
+    section.background {
+      display: block;  /* Allow the text and image to stack vertically */
+      padding: 10px;    /* Add some padding for spacing */
+    }
+  
+    section.background img {
+      max-width: 100%;   /* Ensure the images are responsive */
+      height: auto;
+    }
+  
+    section.background p {
+      font-size: 14px;  /* Slightly smaller text on mobile */
+    }
+  
+    section.team {
+      text-align: center;  /* Center team members */
+    }
+  
+    .team-member {
+      display: block;   /* Stack team members vertically */
+      margin: 20px 0;    /* Add margin between team members */
+      width: 100%;       /* Ensure full width */
+    }
+  
+    .team-member img {
+      max-width: 100%;    /* Make sure images resize properly */
+      height: auto;
+    }
+  
+    section.certificate img {
+      max-width: 100%;    /* Ensure certificate image is responsive */
+      margin: 10% auto;   /* Center certificate image with margin */
+    }
+  }

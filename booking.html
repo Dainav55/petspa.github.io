@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <!-- Na Vu | Student ID: 7889923 -->
+ <title>Pet Spa</title>
+ <link rel="stylesheet" href="home.css">
+ <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+ <header>
+     <h1>Pawsh Paradise</h1>
+ </header>
+ <nav>
+     <ul>
+     <li><a href="index.html">Home</a></li>
+     <li><a href="aboutus.html">About Us</a></li>
+     <li><a href="services.html">Services</a></li>
+     <li><a href="booking.html">Booking</a></li>
+     <li><a href="contact.html">Contact</a></li>
+   </ul>
+ </nav>
+    <main>
+        <section class="booking-banner">
+        <h2>Online Booking</h2>
+    </section>
+    <h3>Our Opening Hours</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th>Opening Hours</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Monday</td>
+              <td>9:00 AM - 6:00 PM</td>
+            </tr>
+            <tr>
+              <td>Tuesday</td>
+              <td>9:00 AM - 6:00 PM</td>
+            </tr>
+            <tr>
+              <td>Wednesday</td>
+              <td>9:00 AM - 6:00 PM</td>
+            </tr>
+            <tr>
+              <td>Thursday</td>
+              <td>9:00 AM - 6:00 PM</td>
+            </tr>
+            <tr>
+              <td>Friday</td>
+              <td>9:00 AM - 6:00 PM</td>
+            </tr>
+            <tr>
+              <td>Saturday</td>
+              <td>10:00 AM - 4:00 PM</td>
+            </tr>
+            <tr>
+              <td>Sunday</td>
+              <td>10:00 AM - 4:00 PM</td>
+            </tr>
+          </tbody>
+        </table>
+        <section>
+        <h3>Schedule an Appointment</h3>
+        <p>Fill in the information below to request a grooming appointment. A groomer will contact you to verify your appointment time and date. </p>
+    </section>
+        <section>
+            <form action="#">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="fname" placeholder="Your First Name">
+              
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lname" placeholder="Your Last Name">
+              
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+              
+                  <label for="date">Appointment Date</label>
+              <input type="date" id="date" name="date">
+              <input type="time" id="time" name="time">
+              
+                  <label for="Service">Service</label>
+              <select name="Service" id="Service">
+                <option value="Day Care" selected>Day Care</option>
+                <option value="Grooming">Grooming</option>
+                <option value="Veterinary" >Veterinary</option>
+                <option value="Additional Services" >Additional Services</option>
+              </select>
+              
+              <label for="comments">Instructions/Notes</label>
+              <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Type your notes here"></textarea>
+              
+              <label for="Location">Location</label>
+              <select name="Location" id="Location">
+                <option value="Spring">Spring</option>
+                <option value="Tomball">Tomball</option>
+                <option value="Katy" selected>Katy</option>
+             
+              </select>
+              
+              <input type="submit" value="Submit!">
+              <input type="reset" value="Start over!">
+            </form>
+          </section>
+      </main>
+      <footer>
+        <p>Designed by: Na Vu | Copyright © Pet Spa 2025 | IMED-1316: Instructor Juan Primo</p>
+    </footer>
+</body>
+</html>
